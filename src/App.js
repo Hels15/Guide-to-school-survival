@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-     Hadhazy
+     <button>Click me</button>
     </div>
   );
 }
