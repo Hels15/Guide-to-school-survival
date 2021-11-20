@@ -6,7 +6,7 @@ function Header() {
         <div className="header-container">
 
             <div className="header-items">
-                Guide to school survival Home Our Work Substance
+                Guide to school survival Home Our Work Substance updated version
             </div>
 
 
