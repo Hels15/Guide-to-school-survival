@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="App">
 
-     <button>Click me</button>
+     <button>Click</button>
 
     </div>
   );
