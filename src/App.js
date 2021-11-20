@@ -1,10 +1,14 @@
+
+
 function App() {
   return (
-    <div className="App">
 
-     <button>Click me</button>
+      <div>
+          <button> Semmi </button>
+      </div>
 
-    </div>
+
+
   );
 }
 
