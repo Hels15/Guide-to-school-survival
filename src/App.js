@@ -1,10 +1,16 @@
+
+
 function App() {
   return (
-    <div className="App">
+
+
+      <div>
+          <button> Semmi </button>
+      </div>
 
      <button>Click</button>
 
-    </div>
+
   );
 }
 
