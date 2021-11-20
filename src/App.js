@@ -6,6 +6,7 @@ import Footer from "./Component/Footer";
 function App() {
   return (
 
+
       <div>
           <Header/>
           <br/>
@@ -14,6 +15,7 @@ function App() {
           <Footer/>
       </div>
 
+     <button>Click</button>
 
   );
 }
