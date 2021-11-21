@@ -1,3 +1,6 @@
+import Header from "./Component/Header";
+import Content from "./Component/Content";
+import Footer from "./Component/Footer";
 
 
 function App() {
@@ -5,11 +8,14 @@ function App() {
 
 
       <div>
-          <button> Semmi </button>
+          <Header/>
+          <br/>
+      <Content/>
+          <br/>
+          <Footer/>
       </div>
 
      <button>Click</button>
-
 
   );
 }
