@@ -1,9 +1,9 @@
 import React from 'react';
-
-
 function Footer(props) {
     return (
-        <div>Footer</div>
+        <div className="footer-container">
+            Footer
+        </div>
     );
 }
 
