@@ -6,7 +6,41 @@ function Header() {
         <div className="header-container">
 
             <div className="header-items">
-                Guide to school survival Home Our Work Substance updated version
+
+               <div className="title">Guide to school survival</div>
+
+                <div className="other-menu">
+
+
+                    <ul>
+                        <a  className="menu-item" href="">Home</a>
+                        <a  className="menu-item" href="">Substance</a>
+                        <a  className="menu-item" href="">Our Work</a>
+                        <a  className="menu-item" href="">Information</a>
+
+
+
+
+
+
+                    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
             </div>
 
 

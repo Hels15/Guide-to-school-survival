@@ -3,7 +3,10 @@
 @import "Content";
 @import "Variables";
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'Schoolbell', cursive;
 }

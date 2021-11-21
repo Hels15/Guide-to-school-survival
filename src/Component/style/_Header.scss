@@ -1,9 +1,74 @@
 .header-container {
  padding: 20px;
- color: red;
+ color: black;
+
+
+
  .header-items{
-  font-size: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+  .other-menu{
+   display: flex;
+   width: 80%;
+
+
+   button {
+    background-color: #568EE1;
+    border-radius: 19px;
+    width: 198px;
+    height: 40px;
+    left: 935px;
+    top: 33px;
+    cursor: pointer;
+   }
+
+
+
+  }
+
+
+
+
+  .title{
+   width: 100%;
+   color: #568EE1;
+  }
+
+
+
+div {
+ color: blue;
+ font-size: 32px;
+}
+
+  .menu-item{
+   font-size: 24px;
+   padding-right: 50px;
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   &:hover{
+    color: gray;
+    transition: 0.3s;
+
+   }
+
+
+  }
+
+
+  }
+
  }
 
-}
+
+
+
+
+
 
