@@ -1,11 +1,42 @@
+.base-content-container{
+  max-width: $content-width;
+  margin: 0 auto;
+}
 .content-container {
+  display: grid;
+  grid-template-columns: auto auto;
   font-size: 72px;
+
+  margin-top: 80px;
+
+
+  .left-side-content{
+
+    .school-stress{
+      font-size: $help-with-school-stress-size;
+      color: $help-with-school-stress-color;
+      letter-spacing: 14px;
+    }
+
+    .look-around{
+      font-size: $look-around-and-use-the-help-size;
+      color: $look-around-and-use-the-help-color;
+    }
+  }
+
+
+
+  .right-side-content{
+    .site-milestones{
+      font-size: $site-milestones-size;
+      color: $site-milestones-color
+
+    }
+  }
 
   .search-input{
     padding: 10px;
-    background-color: #568EE1;
+    background-color: $default-blue;
     border-radius: 90px;
-
   }
-
 }

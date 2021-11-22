@@ -1,7 +1,10 @@
+@import "Variables";
 @import "Footer";
 @import "Header";
 @import "Content";
-@import "Variables";
+html{
+  height: 100%;
+}
 
 *{
   margin: 0;
@@ -10,14 +13,16 @@
 }
 body{
   font-family: 'Schoolbell', cursive;
-  height: 100%;
+  height: 100vh;
 
   .App{
-    height: 100%;
+    height: 100vh;
   }
 
 
 }
+
+
 
 html{
   height: 100%;
