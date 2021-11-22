@@ -17,29 +17,11 @@ function Header() {
                         <a  className="menu-item" href="">Substance</a>
                         <a  className="menu-item" href="">Our Work</a>
                         <a  className="menu-item" href="">Information</a>
-
-
-
-
-
+                        <a  className="menu-item" href="">Send us a massage</a>
 
                     </ul>
 
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
-
 
             </div>
 

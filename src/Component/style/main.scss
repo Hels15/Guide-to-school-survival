@@ -6,7 +6,19 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   font-family: 'Schoolbell', cursive;
+  height: 100%;
+
+  .App{
+    height: 100%;
+  }
+
+
+}
+
+html{
+  height: 100%;
 }

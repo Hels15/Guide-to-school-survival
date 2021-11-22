@@ -1,8 +1,11 @@
-.content-container{
-  width: 533px;
-  height: 319px;
-  left: 119px;
-  top: 297px;
-  font-size: 73px;
-  line-height: 102px;
+.content-container {
+  font-size: 72px;
+
+  .search-input{
+    padding: 10px;
+    background-color: #568EE1;
+    border-radius: 90px;
+
+  }
+
 }

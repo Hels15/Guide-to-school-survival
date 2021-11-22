@@ -1,6 +1,23 @@
 .header-container {
  padding: 20px;
- color: black;
+ background-color: #568EE1;
+
+
+  .sign-in{
+    padding-right: 15px;
+    margin-left: 50px;
+
+  }
+
+small{
+font-size: 20px;
+  display: flex;
+  padding-right: 40px;
+  width: 50%;
+  text-decoration: none;
+ text-transform: uppercase;
+ color: inherit;
+}
 
 
 
@@ -14,6 +31,8 @@
   .other-menu{
    display: flex;
    width: 80%;
+
+
 
 
    button {
@@ -35,7 +54,7 @@
 
   .title{
    width: 100%;
-   color: #568EE1;
+   color: whitesmoke;
   }
 
 
@@ -48,12 +67,13 @@ div {
   .menu-item{
    font-size: 24px;
    padding-right: 50px;
-   color: black;
+   color:black;
    text-decoration: none;
    text-transform: uppercase;
 
    &:hover{
-    color: gray;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
     transition: 0.3s;
 
    }
