@@ -4,7 +4,7 @@ function Footer() {
             <div className="footer-container">
             <div className="base-content-container">
                 <small>
-                <a href="">Sign in</a>or<a href=""> Create Accountt</a>
+                <a href="">Sign in</a>or<a href=""> Create Account</a>
             </small>
             </div>
 
