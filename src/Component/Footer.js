@@ -1,12 +1,11 @@
 import React from 'react';
 function Footer() {
-
     return (
             <div className="footer-container base-content-container" id="footer">
                 <div >
-                     <p>Information</p>
-                     <p>Information</p>
-                     <p>Information</p>
+                     <p>Information1</p>
+                     <p>Information1</p>
+                     <p>Information1</p>
                 </div>
                 <div >
                     <p>Information2</p>
@@ -25,8 +24,6 @@ function Footer() {
                 </div>
 
                 </div>
-
-
     );
 }
 
