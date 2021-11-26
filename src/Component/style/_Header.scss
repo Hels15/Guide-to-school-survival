@@ -1,8 +1,6 @@
 .header-container {
  padding: 20px;
-
-
-
+ filter: drop-shadow(16px 16px 16px black);
   .sign-in{
     padding-right: 15px;
     margin-left: 50px;
@@ -28,27 +26,40 @@ small{
 
 
 
-  .other-menu{
+  .other-menu {
    display: flex;
    width: 80%;
    padding-top: 10px;
    justify-content: normal;
    margin-left: 400px;
-
-
-   .inverted{
-    background-color: $default-blue;
-    border-radius: 19px;
-    width: 198px;
-    height: 40px;
-    left: 935px;
-    top: 33px;
-    cursor: pointer;
-   }
-
-
-
   }
+  .button-container{
+   .inverted{
+      background-color: $default-blue;
+      color: black;
+      font-size: 24px;
+      font-family: 'Schoolbell', cursive;
+      border-radius: 19px;
+      width: 198px;
+      height: 40px;
+      left: 935px;
+      top: 33px;
+      cursor: pointer;
+
+     &:hover{
+       border: 2px solid transparent;
+       color: black;
+       background-color: #821cc9;
+       transform: scale(1.05);
+       ;
+     }
+   }
+    }
+
+
+
+
+
 
 
   .title{

@@ -1,8 +1,27 @@
 .footer-container{
-  background-color: black;
-  bottom: 0;
-  position: absolute;
-  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  padding-left: 200px;
+  background-color: $default-blue;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  position: sticky;
+  top: 100vh;
+  border-radius: 6px;
+
+  filter: drop-shadow(16px 16px 16px grey);
+  .column-1{
+    flex:1;
+  }
+  .column-2{
+    flex: 2;
+  }
+  .footer-text-content{
+    align-self: revert;
+    ;
+  }
 
   a{
     color: whitesmoke;
@@ -16,5 +35,8 @@
       transition: border-bottom 0.3s;
     }
   }
+  div{
+    font-size: 20px;
 
+  }
 }

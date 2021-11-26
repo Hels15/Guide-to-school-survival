@@ -13,17 +13,14 @@ html{
 }
 body{
   font-family: 'Schoolbell', cursive;
-  height: 100vh;
-
+  min-height: 100vh;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   .App{
-    height: 100vh;
+    min-height: 100vh;
   }
 
-
 }
 
-
-
-html{
-  height: 100%;
-}

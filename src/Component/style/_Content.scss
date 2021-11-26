@@ -23,14 +23,16 @@
       color: $look-around-and-use-the-help-color;
     }
   }
-
-
-
   .right-side-content{
     .site-milestones{
+      border: 1px solid gray;
+      border-radius: 20px;
+      background-color: gray;
+      opacity: 0.6;
+      padding: 10px;
+      height: 500px;
       font-size: $site-milestones-size;
       color: $site-milestones-color
-
     }
   }
 

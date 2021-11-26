@@ -12,15 +12,16 @@ function Header() {
                     <div className="title">Guide to school survival</div>
 
                 <div className="other-menu">
-
                         <div  className="menu-item" >Home</div>
                         <div  className="menu-item" >Substance</div>
                         <div  className="menu-item" >Our Work</div>
                         <div  className="menu-item" >Send us a massage</div>
                 </div>
 
+                <div className="button-container">
+                    <button className="inverted">Information</button>
+                </div>
 
-                <button className="inverted">Information</button>
 
                 </div>
 

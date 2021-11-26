@@ -1,14 +1,30 @@
 import React from 'react';
 function Footer() {
-    return (
-            <div className="footer-container">
-            <div className="base-content-container">
-                <small>
-                <a href="">Sign in</a>or<a href=""> Create Account</a>
-            </small>
-            </div>
 
-        </div>
+    return (
+            <div className="footer-container base-content-container" id="footer">
+                <div >
+                     <p>Information</p>
+                     <p>Information</p>
+                     <p>Information</p>
+                </div>
+                <div >
+                    <p>Information2</p>
+                    <p>Information2</p>
+                    <p>Information2</p>
+                </div>
+                <div >
+                    <p>Information2</p>
+                    <p>Information2</p>
+                    <p>Information2</p>
+                </div>
+                <div >
+                    <p>Information2</p>
+                    <p>Information2</p>
+                    <p>Information2</p>
+                </div>
+
+                </div>
 
 
     );
