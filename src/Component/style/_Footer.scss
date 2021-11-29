@@ -1,15 +1,18 @@
 .footer-container{
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
-  padding-left: 200px;
-  background-color: $default-blue;
+  padding: 25px;
+  background-color: $darker-blue;
   font-size: 30px;
   width: auto;
   height: auto;
-  margin-top: 20px;
+  margin-top: 0px !important;
   position: sticky;
   top: 100vh;
   border-radius: 6px;
+  margin-left: $margin-left !important;
+  margin-right: $margin-left !important;
+
 
   filter: drop-shadow(16px 16px 16px grey);
   .column-1{

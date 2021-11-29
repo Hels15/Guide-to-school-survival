@@ -27,11 +27,15 @@ small{
 
 
   .other-menu {
+
    display: flex;
    width: 80%;
    padding-top: 10px;
    justify-content: normal;
    margin-left: 400px;
+    a{
+      text-decoration: none;
+    }
   }
   .button-container{
    .inverted{
@@ -56,18 +60,18 @@ small{
    }
     }
 
-
-
-
-
-
-
   .title{
+   user-select: none;
    width: auto;
    color: $default-blue;
    font-size: $title-size;
   }
-
+  .logo{
+    font-size: 100px;
+    right: 1000px;
+    width: auto;
+    border: 1px solid red;
+  }
 
 
   .menu-item{

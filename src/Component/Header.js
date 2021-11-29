@@ -1,6 +1,6 @@
 import React from 'react';
 import {unstable_renderSubtreeIntoContainer} from "react-dom";
-
+import {Link} from "react-router-dom";
 
 function Header() {
     return (
@@ -8,23 +8,18 @@ function Header() {
         <div className="header-container">
 
             <div className="header-items">
-                <div className="base-content-container">
-                    <div className="title">Guide to school survival</div>
 
+                    <div className="title">Guide to school survival</div>
                 <div className="other-menu">
-                        <div  className="menu-item" >Home</div>
-                        <div  className="menu-item" >Substance</div>
-                        <div  className="menu-item" >Our Work</div>
-                        <div  className="menu-item" >Send us a massage</div>
+                        <Link to="/"><div  className="menu-item" >Home</div></Link>
+                        <Link to="substance"><div  className="menu-item" >Substance</div></Link>
+                        <Link to="our-work"><div  className="menu-item" >Our Work</div></Link>
+                        <Link to="send-us-a-message"><div  className="menu-item" >Send us a massage</div></Link>
                 </div>
 
                 <div className="button-container">
                     <button className="inverted">Information</button>
                 </div>
-
-
-                </div>
-
 
             </div>
 

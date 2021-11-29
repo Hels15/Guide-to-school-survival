@@ -3,9 +3,7 @@ import React from 'react';
 
 function Content() {
     return (
-
-
-        <div className="content-container base-content-container">
+        <div className="content-container">
 
                          <div className="left-side-content">
                              <div className="school-stress">HELP WITH SCHOOL STRESS</div>
@@ -17,7 +15,6 @@ function Content() {
                         </div>
 
         </div>
-
     );
 }
 

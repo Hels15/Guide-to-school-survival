@@ -11,14 +11,16 @@
 
 
   .left-side-content{
-
+    margin-left: $margin-left;
     .school-stress{
+
       font-size: $help-with-school-stress-size;
       color: $help-with-school-stress-color;
       letter-spacing: 14px;
     }
 
     .look-around{
+
       font-size: $look-around-and-use-the-help-size;
       color: $look-around-and-use-the-help-color;
     }
@@ -32,7 +34,9 @@
       padding: 10px;
       height: 500px;
       font-size: $site-milestones-size;
-      color: $site-milestones-color
+      color: $site-milestones-color;
+      margin-right: $margin-left;
+
     }
   }
 
