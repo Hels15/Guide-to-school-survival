@@ -1,5 +1,11 @@
 .header-container {
+ position: sticky;
+ z-index: 100;
  padding: 20px;
+ top: 0;
+ width: 100%;
+
+;
  filter: drop-shadow(16px 16px 16px black);
   .sign-in{
     padding-right: 15px;
@@ -29,10 +35,10 @@ small{
   .other-menu {
 
    display: flex;
-   width: 80%;
+   width: 80%;;
    padding-top: 10px;
    justify-content: normal;
-   margin-left: 400px;
+   margin-left: 290px;
     a{
       text-decoration: none;
     }
@@ -52,8 +58,8 @@ small{
 
      &:hover{
        border: 2px solid transparent;
-       color: black;
-       background-color: #821cc9;
+       color: rgb(21, 16, 16);
+       background-color: #ffffff;
        transform: scale(1.05);
        ;
      }
@@ -65,6 +71,11 @@ small{
    width: auto;
    color: $default-blue;
    font-size: $title-size;
+   transition: .4s;
+
+    &:hover{
+      padding-left: 10px;
+    }
   }
   .logo{
     font-size: 100px;

@@ -3,11 +3,18 @@
     left: auto;
     width: 250px;
     height: 500px;
-    background-color: #214e79;
+    background-color: $darker-blue;
     border-radius: 10px 10px 10px 10px;
     margin-left: $margin-left;
     margin-right: $margin-left;
     filter: drop-shadow(16px 16px 16px black);
+    transition: .5s;
+    .all-icons{
+
+    }
+    &:hover{
+      background-color: #165975;
+    }
    header{
      font-size: 22px;
      color: white;
@@ -27,7 +34,7 @@
      padding-left: 40px;
      box-sizing: border-box;
      border-top: 1px solid rgba(255,255,255,.1);
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.58);
      transition: .4s;
 
      &:hover{
@@ -41,7 +48,10 @@
   .content{
    width: 1420px;
    height: 500px;
-   border: 1px solid red;
+   border: 1px solid #249348;
+   margin-right: 10px;
+   border-radius: 5px;
+   background-color: #213a4d;
   }
   p{
     font-size: 20px;

@@ -8,12 +8,12 @@ function SendUsAMessage(props) {
             <div className="connection-left-menu-container">
                 <div className="connection-container">
                     <header>Connections</header>
-                        <ul>
-                            <li><Link to=""><i className="fas fa-qrcode">dfgdf</i></Link></li>
-                            <li><Link to=""><i className="fas fa-bug">dfgdf</i></Link></li>
-                            <li><Link to=""><i className="fas fa-envelope">dfgdf</i></Link></li>
-                            <li><Link to=""><i className="fas fa-comment-alt">dfgdf</i></Link></li>
-                            <li><Link to=""><i className="fas fa-question-circle">dfgdf</i></Link></li>
+                        <ul className="all-icons">
+                            <li><Link to=""><i className="fas fa-qrcode">sdfsd</i></Link></li>
+                            <li><Link to=""><i className="fas fa-bug">Report Bug</i></Link></li>
+                            <li><Link to=""><i className="fas fa-envelope">Send message</i></Link></li>
+                            <li><Link to=""><i className="fas fa-comment-alt">Community</i></Link></li>
+                            <li><Link to=""><i className="fas fa-question-circle">Information this section</i></Link></li>
                         </ul>
                     </div>
                 </div>

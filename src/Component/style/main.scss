@@ -18,8 +18,19 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: rgba(117, 117, 117, 0.3);
+
   .App{
     min-height: 100vh;
   }
 
+}
+
+
+input{
+  padding: 10px;
+  font: inherit;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.58);
 }
