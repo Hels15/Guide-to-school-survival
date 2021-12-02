@@ -4,8 +4,6 @@
  padding: 20px;
  top: 0;
  width: 100%;
-
-;
  filter: drop-shadow(16px 16px 16px black);
   .sign-in{
     padding-right: 15px;
@@ -72,9 +70,10 @@ small{
    color: $default-blue;
    font-size: $title-size;
    transition: .4s;
-
+   text-decoration: none;
     &:hover{
       padding-left: 10px;
+      cursor: pointer;
     }
   }
   .logo{

@@ -18,7 +18,15 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: url("cool-background.svg") no-repeat;
+  background-size:cover;
   background-color: rgba(117, 117, 117, 0.3);
+
+#left{
+  position: absolute;
+  top:60%
+}
+
 
   .App{
     min-height: 100vh;
