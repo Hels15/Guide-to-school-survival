@@ -11,7 +11,9 @@ function Content() {
                         </div>
 
                         <div className="right-side-content">
-                            <div className="site-milestones">SITE MILESTONES</div>
+                            <div className="site-milestones">
+                                SITE MILESTONES
+                            </div>
                         </div>
 
         </div>

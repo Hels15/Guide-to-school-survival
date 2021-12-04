@@ -19,14 +19,13 @@ function Footer() {
     return (
             <div className="footer-container base-content-container" id="footer">
                 <div>
-                  <h3>QUICK LINKS</h3>
-                  <p>Search</p>
-                  <p>Contact</p>
-                  <p>About Us</p>
-                  <p>News</p>
-                  <p>FAQ</p>
+                  <Link to="" ><h3>QUICK LINKS</h3></Link>
+                  <Link to=""><p>Contact</p></Link>
+                  <Link to=""><p>About Us</p></Link>
+                  <Link to=""><p>News</p></Link>
+                  <Link to=""><p>FAQ</p></Link>
                 </div>
-                <div >
+                <div>
                     <h3>GET IN TOUCH</h3>
                     <p>Sign up to stay in the loop. Receive updates, access to exclusive deals, and more.</p>
                 </div>

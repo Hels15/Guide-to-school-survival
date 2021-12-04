@@ -11,6 +11,7 @@
 
 
   .left-side-content{
+    user-select: none;
     margin-left: $margin-left;
     .school-stress{
 
@@ -27,6 +28,7 @@
   }
   .right-side-content{
     .site-milestones{
+      user-select: none;
       border: 1px solid gray;
       border-radius: 20px;
       background-color: gray;

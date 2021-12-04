@@ -5,8 +5,8 @@
   padding: 25px;
   background-color: $darker-blue;
   font-size: 30px;
-  width: auto;
-  height: auto;
+  width: auto !important;
+  height: auto !important;
   margin-top: 5px!important;
   position: sticky;
   top: 100vh;
@@ -14,6 +14,13 @@
   margin-left: $margin-left !important;
   margin-right: $margin-left !important;
   .newsletter-box{
+
+    input{
+      &:focus{
+        background: white;
+        ;
+      }
+    }
     .footer-button{
       margin-left: 15px;
       padding: 10px;
