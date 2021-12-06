@@ -6,6 +6,7 @@ import WhatIsThis from "./Component/Connections/WhatIsThis";
 import Community from "./Component/Connections/Community";
 import SendMessage from "./Component/Connections/SendMessage";
 import ReportBug from "./Component/Connections/ReportBug";
+import {motion} from "framer-motion"
 import {
   BrowserRouter,
   Routes,
@@ -19,7 +20,7 @@ function App() {
     footer.classList.add('sticky');
     }, true);
   return (
-    <div className="App">
+    <motion.div className="App" initial={{x: "-100vw"}} animate={{x: 0}} transition={{delay: 0.5}}>
         <BrowserRouter>
             <Header/>
 
@@ -43,7 +44,7 @@ function App() {
         </BrowserRouter>
 
 
-    </div>
+    </motion.div>
   );
 }
 
