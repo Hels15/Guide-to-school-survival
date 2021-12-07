@@ -20,10 +20,10 @@ function Footer() {
             <div className="footer-container base-content-container" id="footer">
                 <div>
                   <Link to="" ><h3>QUICK LINKS</h3></Link>
-                  <Link to=""><p>Contact</p></Link>
-                  <Link to=""><p>About Us</p></Link>
-                  <Link to=""><p>News</p></Link>
-                  <Link to=""><p>FAQ</p></Link>
+                  <Link to="send-us-a-message"><p>Contact</p></Link>
+                  <Link to="our-work"><p>About Us</p></Link>
+                  <Link to="update"><p>News</p></Link>
+                  <Link to="faq"><p>FAQ</p></Link>
                 </div>
                 <div>
                     <h3>GET IN TOUCH</h3>

@@ -6,6 +6,9 @@ import WhatIsThis from "./Component/Connections/WhatIsThis";
 import Community from "./Component/Connections/Community";
 import SendMessage from "./Component/Connections/SendMessage";
 import ReportBug from "./Component/Connections/ReportBug";
+import Update from "./Component/Update.js"
+import FAQ from "./Component/FAQ"
+
 import {motion} from "framer-motion"
 import {
   BrowserRouter,
@@ -14,6 +17,7 @@ import {
 } from "react-router-dom";
 import OurWork from "./Component/OurWork";
 import SendUsAMessage from "./Component/SendUsAMessage";
+import Faq from "./Component/FAQ";
 function App() {
     window.addEventListener('resize', function(event) {
     var footer = document.querySelector('#footer');
@@ -30,7 +34,8 @@ function App() {
                     <Route path="test" element={<ReportBug/>}/>
                 </Route>
                 <Route path="our-work" element={<OurWork/>}/>
-
+                <Route path="update" element={<Update/>}/>
+                <Route path="faq" element={<FAQ/>}/>
                 <Route path="/send-us-a-message" element={<SendUsAMessage/>}>
                     <Route path="report-bug" element={<ReportBug/>}/>
                     <Route path="send-message" element={<SendMessage/>}/>
